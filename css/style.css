@@ -13,7 +13,7 @@ img {
 
 
 
-/* regole di debug */
+/* regole di debug
 [class*="col-"] {
   min-height: 100px;
   background-color: lightgreen;
@@ -43,6 +43,54 @@ header {
   left: 0;
   width: 100%;
   z-index: 900;
+}
+.logo{
+  text-align: center;
+  line-height: 100px;
+}
+.menu li{
+  display: inline-block;
+ text-align: center;
+ line-height: 100px;
+}
+.menu li a{
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 12px;
+}
+#jumbo{
+    background: url("../img/jumbo.jpg");
+    background-size: cover;
+    height: 400px;
+    min-height: 400px;
+    background-position: center;
+    position: relative;
+}
+#jumbo h1{
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  line-height: 200px;
+}
+#jumbo p{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-top: -70px;
+}
+.bottoni-download{
+  text-align:center;
+}
+button{
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  width: 150px;
+  border: black;
+  display: inline-block;
 }
 
 #nav-mobile {
