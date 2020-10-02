@@ -91,7 +91,129 @@ button{
   width: 150px;
   border: black;
   display: inline-block;
+
 }
+
+/* sezione 1 */
+.centra-sez1{
+  margin-top: 50px;
+  text-align: center;
+}
+.centra-sez1 img{
+  height: 300px;
+  margin-top: 40px;
+  max-width: 100%;
+}
+.centra-sez1 h1{
+  font-size: 35px;
+}
+.centra-sez1 p{
+  font-size: 20px;
+}
+.centra-sez1 button{
+  background-color: white;
+  color: blue;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* sezione 2 */
+ #img-anziano{
+  min-height: 300px;
+  height: 200px;
+}
+#img-telefono{
+  height: 200px;
+  width: 250px;
+  position: relative;
+  margin-left: 35%;
+  margin-top: -200px;
+}
+.sez2 h2{
+  font-size: 30px;
+  margin-top: 200px;
+  width: 200px;
+  margin-left: 200px;
+}
+.sez2 h5{
+width: 200px;
+margin-top: 200px;
+margin-left: 200px;
+}
+.sez2 p{
+  width: 200px;
+  margin-left: 200px;
+}
+
+/* sezione 3 */
+
+#img-parco{
+  background: url("../img/bike.jpg");
+  background-size: cover;
+  height: 400px;
+  min-height: 400px;
+  background-position: center;
+  position: relative;
+  margin-top: 150px;
+}
+.smart-mobility{
+  margin-left: 700px;
+  text-align: center;
+  color: white;
+  width: 250px;
+}
+.smart-mobility h1{
+  font-size: 30px;
+}
+.smart-mobility button{
+  background-color: inherit;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+.download{
+  background-color: #00323F;
+  color: white;
+  margin-top: 50px;
+  height: 400px;
+  text-align: center;
+}
+.download button{
+  background-color: inherit;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  display: contents;
+}
+.img-download{
+  background: url("../img/sfondo_info2.png");
+  background-size: cover;
+  height: 265px;
+  background-position: center;
+  width: 300px;
+  margin-left: 130px;
+}
+
+.citta{
+  background: url("../img/citta.jpg");
+  background-size: cover;
+  opacity: 0.7;
+  height: 400px;
+  min-height: 400px;
+  background-position: center;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+
+}
+
+.citta button{
+  background-color: inherit;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
 
 #nav-mobile {
   display: none;
@@ -108,7 +230,7 @@ button{
   padding: 0 5%;
 }
 
-.img-anziano{
+/*.img-anziano{
   padding-top: 50px;
   min-height: 300px;
 }
@@ -130,4 +252,4 @@ button{
 .img-social{
   padding-top: 50px;
   min-height: 300px;
-}
+}*/
