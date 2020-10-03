@@ -19,7 +19,7 @@ img {
   background-color: lightgreen;
   border: solid 1px  #000;
   padding: 2px;
-}
+}*/
 
 /* .row .col-6 div  */
 [class*="col-"] > .row > [class*="col-"]{
@@ -184,26 +184,28 @@ margin-left: 200px;
   font-size: 15px;
   text-align: center;
   display: contents;
+
 }
 .img-download{
   background: url("../img/sfondo_info2.png");
   background-size: cover;
   height: 265px;
   background-position: center;
-  width: 300px;
-  margin-left: 130px;
+  width: 200px;
+  margin-left: 180px;
+
 }
 
 .citta{
   background: url("../img/citta.jpg");
   background-size: cover;
-  opacity: 0.7;
   height: 400px;
   min-height: 400px;
   background-position: center;
-  margin-top: 150px;
+  margin-top: 50px;
   text-align: center;
   color: white;
+  margin-left: 30px;
 
 }
 
@@ -212,6 +214,97 @@ margin-left: 200px;
   color: white;
   font-size: 15px;
   text-align: center;
+}
+
+
+.img-social{
+  background: url("../img/pachwork.jpg");
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+  width: 100%;
+  margin-top: 50px;
+
+
+}
+
+.testo-social{
+  width: 350px;
+  height: 150px;
+  background-color: white;
+  text-align: center;
+  margin-left: 500px;
+  line-height: 50px;
+}
+
+.menu-social li {
+  display: inline-block;
+ text-align: center;
+ line-height: 100px;
+}
+
+.menu-social li a{
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 25px;
+}
+
+.container-black{
+  background-color: black;
+  height: 700px;
+  width: 100%;
+  padding: 100px;
+  margin-top: 50px;
+}
+.container-black h1{
+  color: white;
+  font-size: 20px;
+}
+.container-black h3{
+  color: white;
+  font-size: 15px;
+}
+.container-black hr{
+  color: grey;
+}
+
+
+
+.menu-footer li a{
+  color: grey;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 10px;
+}
+
+.menu-footer-social li{
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.menu-footer-social li a{
+  color: white;
+}
+
+.condizioni h3{
+  font-size: 15px;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bottoni-download-footer{
+  display: flex;
+  margin-top: 30px;
+}
+.bottoni-download-footer button{
+  border: 1px solid white;
+  margin-left: 5px;
 }
 
 
